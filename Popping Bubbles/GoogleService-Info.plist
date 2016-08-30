@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>67771538160-11tnnrf7ra2eo1bk742gp3uuhe4cil3l.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.67771538160-11tnnrf7ra2eo1bk742gp3uuhe4cil3l</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBWBtrjCJWSdacldO5JH9R4aXIuNDuKmuE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>67771538160</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>meitar.com.Popping-Bubbles</string>
+	<key>PROJECT_ID</key>
+	<string>popping-bubbles-8011e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>popping-bubbles-8011e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:67771538160:ios:f3985397e8170dbf</string>
+	<key>DATABASE_URL</key>
+	<string>https://popping-bubbles-8011e.firebaseio.com</string>
+</dict>
+</plist>

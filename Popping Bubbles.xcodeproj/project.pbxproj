@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		802ACDF4AD8DEB01F1399FD7 /* Pods_Popping_Bubbles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2917037A857AEE2541CA33 /* Pods_Popping_Bubbles.framework */; };
+		A9034C591D6C4E3E004BE292 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9034C581D6C4E3E004BE292 /* GameOverScene.swift */; };
+		A927C8FA1D744A17006F66BE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A927C8F91D744A17006F66BE /* QuartzCore.framework */; };
+		A927C8FC1D744A1B006F66BE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A927C8FB1D744A1B006F66BE /* Security.framework */; };
+		A927C8FE1D744A21006F66BE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A927C8FD1D744A21006F66BE /* CFNetwork.framework */; };
+		A927C9001D744A26006F66BE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A927C8FF1D744A26006F66BE /* AVFoundation.framework */; };
+		A927C9021D744A2B006F66BE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A927C9011D744A2B006F66BE /* SystemConfiguration.framework */; };
+		A927C9041D744A32006F66BE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A927C9031D744A32006F66BE /* MobileCoreServices.framework */; };
+		A927C9061D744A36006F66BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A927C9051D744A36006F66BE /* CoreGraphics.framework */; };
+		A927C9081D744A3A006F66BE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A927C9071D744A3A006F66BE /* CoreMedia.framework */; };
+		A927C90A1D744A3E006F66BE /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A927C9091D744A3E006F66BE /* AdSupport.framework */; };
+		A927C90C1D744A41006F66BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A927C90B1D744A41006F66BE /* UIKit.framework */; };
+		A927C90E1D744A46006F66BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A927C90D1D744A46006F66BE /* Foundation.framework */; };
+		A941CB9D1D6E013F009189FA /* bubblesPop.wav in Resources */ = {isa = PBXBuildFile; fileRef = A941CB9C1D6E013F009189FA /* bubblesPop.wav */; };
+		A941CB9F1D6E025F009189FA /* gameMusic.aiff in Resources */ = {isa = PBXBuildFile; fileRef = A941CB9E1D6E025F009189FA /* gameMusic.aiff */; };
+		A941CBA11D6E03C4009189FA /* missSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = A941CBA01D6E03C4009189FA /* missSound.wav */; };
+		A941CBA31D6E0A72009189FA /* lostSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = A941CBA21D6E0A72009189FA /* lostSound.wav */; };
+		A943D27B1D72C96E0041F57A /* myMedalsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A943D27A1D72C96E0041F57A /* myMedalsScene.swift */; };
+		A9747CDA1D75696300914773 /* libAppnextLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9747CD91D75696300914773 /* libAppnextLib.a */; };
+		A989C3631D6CEA210087F279 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A989C3621D6CEA210087F279 /* GoogleService-Info.plist */; };
+		A989C3651D6CF01E0087F279 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A989C3641D6CF01E0087F279 /* GoogleMobileAds.framework */; };
+		A998D3B21D6C2115006C51B2 /* HomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998D3B11D6C2115006C51B2 /* HomeScene.swift */; };
+		A998D3B41D6C2473006C51B2 /* AboutScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998D3B31D6C2473006C51B2 /* AboutScene.swift */; };
 		A9DC278A1D69E4B100012DF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC27891D69E4B100012DF2 /* AppDelegate.swift */; };
 		A9DC278C1D69E4B100012DF2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9DC278B1D69E4B100012DF2 /* GameScene.sks */; };
 		A9DC278E1D69E4B100012DF2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC278D1D69E4B100012DF2 /* GameScene.swift */; };
@@ -14,9 +37,52 @@
 		A9DC27931D69E4B100012DF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DC27911D69E4B100012DF2 /* Main.storyboard */; };
 		A9DC27951D69E4B100012DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DC27941D69E4B100012DF2 /* Assets.xcassets */; };
 		A9DC27981D69E4B100012DF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DC27961D69E4B100012DF2 /* LaunchScreen.storyboard */; };
+		A9DC27A01D69E62200012DF2 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC279F1D69E62200012DF2 /* Bubble.swift */; };
+		A9DC27A31D69FB6600012DF2 /* ColorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC27A21D69FB6600012DF2 /* ColorLabel.swift */; };
+		A9DC27A71D6A063400012DF2 /* SKNodeUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC27A61D6A063400012DF2 /* SKNodeUpdate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A2917037A857AEE2541CA33 /* Pods_Popping_Bubbles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Popping_Bubbles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95AE67F9F73F8D35A664AE07 /* Pods-Popping Bubbles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Popping Bubbles.release.xcconfig"; path = "Pods/Target Support Files/Pods-Popping Bubbles/Pods-Popping Bubbles.release.xcconfig"; sourceTree = "<group>"; };
+		A9034C581D6C4E3E004BE292 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		A927C8E61D74431B006F66BE /* Screen Shot 2016-08-28 at 10.42.09 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-08-28 at 10.42.09 PM.png"; path = "../Screen Shot 2016-08-28 at 10.42.09 PM.png"; sourceTree = "<group>"; };
+		A927C8E81D744330006F66BE /* libAppnextLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppnextLib.a; path = "../Third Party/AppnextIOSSDK_1.01-2.01/AppnextIOSSDK/libAppnextLib.a"; sourceTree = "<group>"; };
+		A927C8EB1D7449E3006F66BE /* AppnextAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppnextAd.h; path = ../../../Downloads/AppnextIOSSDK_1.01.01/AppnextIOSSDK/include/AppnextLib/AppnextAd.h; sourceTree = "<group>"; };
+		A927C8EC1D7449E3006F66BE /* AppnextAdConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppnextAdConfiguration.h; path = ../../../Downloads/AppnextIOSSDK_1.01.01/AppnextIOSSDK/include/AppnextLib/AppnextAdConfiguration.h; sourceTree = "<group>"; };
+		A927C8ED1D7449E3006F66BE /* AppnextFullScreenVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppnextFullScreenVideoAd.h; path = ../../../Downloads/AppnextIOSSDK_1.01.01/AppnextIOSSDK/include/AppnextLib/AppnextFullScreenVideoAd.h; sourceTree = "<group>"; };
+		A927C8EE1D7449E3006F66BE /* AppnextFullScreenVideoAdConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppnextFullScreenVideoAdConfiguration.h; path = ../../../Downloads/AppnextIOSSDK_1.01.01/AppnextIOSSDK/include/AppnextLib/AppnextFullScreenVideoAdConfiguration.h; sourceTree = "<group>"; };
+		A927C8EF1D7449E3006F66BE /* AppnextInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppnextInterstitialAd.h; path = ../../../Downloads/AppnextIOSSDK_1.01.01/AppnextIOSSDK/include/AppnextLib/AppnextInterstitialAd.h; sourceTree = "<group>"; };
+		A927C8F01D7449E3006F66BE /* AppnextInterstitialAdConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppnextInterstitialAdConfiguration.h; path = ../../../Downloads/AppnextIOSSDK_1.01.01/AppnextIOSSDK/include/AppnextLib/AppnextInterstitialAdConfiguration.h; sourceTree = "<group>"; };
+		A927C8F11D7449E3006F66BE /* AppnextLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppnextLib.h; path = ../../../Downloads/AppnextIOSSDK_1.01.01/AppnextIOSSDK/include/AppnextLib/AppnextLib.h; sourceTree = "<group>"; };
+		A927C8F21D7449E3006F66BE /* AppnextRewardedServerSidePostbackParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppnextRewardedServerSidePostbackParams.h; path = ../../../Downloads/AppnextIOSSDK_1.01.01/AppnextIOSSDK/include/AppnextLib/AppnextRewardedServerSidePostbackParams.h; sourceTree = "<group>"; };
+		A927C8F31D7449E3006F66BE /* AppnextRewardedVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppnextRewardedVideoAd.h; path = ../../../Downloads/AppnextIOSSDK_1.01.01/AppnextIOSSDK/include/AppnextLib/AppnextRewardedVideoAd.h; sourceTree = "<group>"; };
+		A927C8F41D7449E3006F66BE /* AppnextRewardedVideoAdConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppnextRewardedVideoAdConfiguration.h; path = ../../../Downloads/AppnextIOSSDK_1.01.01/AppnextIOSSDK/include/AppnextLib/AppnextRewardedVideoAdConfiguration.h; sourceTree = "<group>"; };
+		A927C8F51D7449E3006F66BE /* AppnextSDKApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppnextSDKApi.h; path = ../../../Downloads/AppnextIOSSDK_1.01.01/AppnextIOSSDK/include/AppnextLib/AppnextSDKApi.h; sourceTree = "<group>"; };
+		A927C8F61D7449E3006F66BE /* AppnextSDKDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppnextSDKDefs.h; path = ../../../Downloads/AppnextIOSSDK_1.01.01/AppnextIOSSDK/include/AppnextLib/AppnextSDKDefs.h; sourceTree = "<group>"; };
+		A927C8F71D7449E3006F66BE /* AppnextVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppnextVideoAd.h; path = ../../../Downloads/AppnextIOSSDK_1.01.01/AppnextIOSSDK/include/AppnextLib/AppnextVideoAd.h; sourceTree = "<group>"; };
+		A927C8F81D7449E3006F66BE /* AppnextVideoAdConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppnextVideoAdConfiguration.h; path = ../../../Downloads/AppnextIOSSDK_1.01.01/AppnextIOSSDK/include/AppnextLib/AppnextVideoAdConfiguration.h; sourceTree = "<group>"; };
+		A927C8F91D744A17006F66BE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A927C8FB1D744A1B006F66BE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A927C8FD1D744A21006F66BE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A927C8FF1D744A26006F66BE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A927C9011D744A2B006F66BE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A927C9031D744A32006F66BE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A927C9051D744A36006F66BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A927C9071D744A3A006F66BE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A927C9091D744A3E006F66BE /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		A927C90B1D744A41006F66BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A927C90D1D744A46006F66BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A941CB9C1D6E013F009189FA /* bubblesPop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubblesPop.wav; sourceTree = "<group>"; };
+		A941CB9E1D6E025F009189FA /* gameMusic.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = gameMusic.aiff; sourceTree = "<group>"; };
+		A941CBA01D6E03C4009189FA /* missSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = missSound.wav; sourceTree = "<group>"; };
+		A941CBA21D6E0A72009189FA /* lostSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lostSound.wav; sourceTree = "<group>"; };
+		A943D27A1D72C96E0041F57A /* myMedalsScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myMedalsScene.swift; sourceTree = "<group>"; };
+		A9747CD91D75696300914773 /* libAppnextLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppnextLib.a; path = ../../Downloads/AppnextIOSSDK_1.01.01/AppnextIOSSDK/libAppnextLib.a; sourceTree = "<group>"; };
+		A989C3621D6CEA210087F279 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A989C3641D6CF01E0087F279 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "Popping Bubbles/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		A998D3B11D6C2115006C51B2 /* HomeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScene.swift; sourceTree = "<group>"; };
+		A998D3B31D6C2473006C51B2 /* AboutScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutScene.swift; sourceTree = "<group>"; };
 		A9DC27861D69E4B100012DF2 /* Popping Bubbles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Popping Bubbles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9DC27891D69E4B100012DF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9DC278B1D69E4B100012DF2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -26,6 +92,10 @@
 		A9DC27941D69E4B100012DF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9DC27971D69E4B100012DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9DC27991D69E4B100012DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9DC279F1D69E62200012DF2 /* Bubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
+		A9DC27A21D69FB6600012DF2 /* ColorLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorLabel.swift; sourceTree = "<group>"; };
+		A9DC27A61D6A063400012DF2 /* SKNodeUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKNodeUpdate.swift; sourceTree = "<group>"; };
+		CA83B98F4B4F1A1380AA01C2 /* Pods-Popping Bubbles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Popping Bubbles.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Popping Bubbles/Pods-Popping Bubbles.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +103,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9747CDA1D75696300914773 /* libAppnextLib.a in Frameworks */,
+				A927C90E1D744A46006F66BE /* Foundation.framework in Frameworks */,
+				A927C90C1D744A41006F66BE /* UIKit.framework in Frameworks */,
+				A927C90A1D744A3E006F66BE /* AdSupport.framework in Frameworks */,
+				A927C9081D744A3A006F66BE /* CoreMedia.framework in Frameworks */,
+				A927C9061D744A36006F66BE /* CoreGraphics.framework in Frameworks */,
+				A927C9041D744A32006F66BE /* MobileCoreServices.framework in Frameworks */,
+				A927C9021D744A2B006F66BE /* SystemConfiguration.framework in Frameworks */,
+				A927C9001D744A26006F66BE /* AVFoundation.framework in Frameworks */,
+				A927C8FE1D744A21006F66BE /* CFNetwork.framework in Frameworks */,
+				A927C8FC1D744A1B006F66BE /* Security.framework in Frameworks */,
+				A927C8FA1D744A17006F66BE /* QuartzCore.framework in Frameworks */,
+				A989C3651D6CF01E0087F279 /* GoogleMobileAds.framework in Frameworks */,
+				802ACDF4AD8DEB01F1399FD7 /* Pods_Popping_Bubbles.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5118375064C2590A1C294A72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA83B98F4B4F1A1380AA01C2 /* Pods-Popping Bubbles.debug.xcconfig */,
+				95AE67F9F73F8D35A664AE07 /* Pods-Popping Bubbles.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A927C8EA1D7449C7006F66BE /* AppnextIOSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A927C8EB1D7449E3006F66BE /* AppnextAd.h */,
+				A927C8EC1D7449E3006F66BE /* AppnextAdConfiguration.h */,
+				A927C8ED1D7449E3006F66BE /* AppnextFullScreenVideoAd.h */,
+				A927C8EE1D7449E3006F66BE /* AppnextFullScreenVideoAdConfiguration.h */,
+				A927C8EF1D7449E3006F66BE /* AppnextInterstitialAd.h */,
+				A927C8F01D7449E3006F66BE /* AppnextInterstitialAdConfiguration.h */,
+				A927C8F11D7449E3006F66BE /* AppnextLib.h */,
+				A927C8F21D7449E3006F66BE /* AppnextRewardedServerSidePostbackParams.h */,
+				A927C8F31D7449E3006F66BE /* AppnextRewardedVideoAd.h */,
+				A927C8F41D7449E3006F66BE /* AppnextRewardedVideoAdConfiguration.h */,
+				A927C8F51D7449E3006F66BE /* AppnextSDKApi.h */,
+				A927C8F61D7449E3006F66BE /* AppnextSDKDefs.h */,
+				A927C8F71D7449E3006F66BE /* AppnextVideoAd.h */,
+				A927C8F81D7449E3006F66BE /* AppnextVideoAdConfiguration.h */,
+			);
+			name = AppnextIOSSDK;
+			sourceTree = "<group>";
+		};
+		A941CBA41D6E0AD0009189FA /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				A941CB9E1D6E025F009189FA /* gameMusic.aiff */,
+				A941CBA01D6E03C4009189FA /* missSound.wav */,
+				A941CB9C1D6E013F009189FA /* bubblesPop.wav */,
+				A941CBA21D6E0A72009189FA /* lostSound.wav */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
 		A9DC277D1D69E4B100012DF2 = {
 			isa = PBXGroup;
 			children = (
 				A9DC27881D69E4B100012DF2 /* Popping Bubbles */,
 				A9DC27871D69E4B100012DF2 /* Products */,
+				5118375064C2590A1C294A72 /* Pods */,
+				CF94F8D326CCC3E30ED675D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +185,73 @@
 		A9DC27881D69E4B100012DF2 /* Popping Bubbles */ = {
 			isa = PBXGroup;
 			children = (
+				A927C8EA1D7449C7006F66BE /* AppnextIOSSDK */,
+				A9DC27A51D6A05AD00012DF2 /* Scenes */,
+				A941CBA41D6E0AD0009189FA /* Music */,
+				A9DC27A41D6A05A800012DF2 /* Extensions */,
+				A9DC27A11D69E98D00012DF2 /* Game Objects */,
 				A9DC27891D69E4B100012DF2 /* AppDelegate.swift */,
 				A9DC278B1D69E4B100012DF2 /* GameScene.sks */,
-				A9DC278D1D69E4B100012DF2 /* GameScene.swift */,
 				A9DC278F1D69E4B100012DF2 /* GameViewController.swift */,
 				A9DC27911D69E4B100012DF2 /* Main.storyboard */,
 				A9DC27941D69E4B100012DF2 /* Assets.xcassets */,
 				A9DC27961D69E4B100012DF2 /* LaunchScreen.storyboard */,
 				A9DC27991D69E4B100012DF2 /* Info.plist */,
+				A989C3621D6CEA210087F279 /* GoogleService-Info.plist */,
 			);
 			path = "Popping Bubbles";
+			sourceTree = "<group>";
+		};
+		A9DC27A11D69E98D00012DF2 /* Game Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A9DC279F1D69E62200012DF2 /* Bubble.swift */,
+				A9DC27A21D69FB6600012DF2 /* ColorLabel.swift */,
+			);
+			name = "Game Objects";
+			sourceTree = "<group>";
+		};
+		A9DC27A41D6A05A800012DF2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A9DC27A61D6A063400012DF2 /* SKNodeUpdate.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		A9DC27A51D6A05AD00012DF2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A9DC278D1D69E4B100012DF2 /* GameScene.swift */,
+				A998D3B11D6C2115006C51B2 /* HomeScene.swift */,
+				A998D3B31D6C2473006C51B2 /* AboutScene.swift */,
+				A9034C581D6C4E3E004BE292 /* GameOverScene.swift */,
+				A943D27A1D72C96E0041F57A /* myMedalsScene.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		CF94F8D326CCC3E30ED675D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9747CD91D75696300914773 /* libAppnextLib.a */,
+				A989C3641D6CF01E0087F279 /* GoogleMobileAds.framework */,
+				A927C90D1D744A46006F66BE /* Foundation.framework */,
+				A927C90B1D744A41006F66BE /* UIKit.framework */,
+				A927C9091D744A3E006F66BE /* AdSupport.framework */,
+				A927C9071D744A3A006F66BE /* CoreMedia.framework */,
+				A927C9051D744A36006F66BE /* CoreGraphics.framework */,
+				A927C9031D744A32006F66BE /* MobileCoreServices.framework */,
+				A927C9011D744A2B006F66BE /* SystemConfiguration.framework */,
+				A927C8FF1D744A26006F66BE /* AVFoundation.framework */,
+				A927C8FD1D744A21006F66BE /* CFNetwork.framework */,
+				A927C8FB1D744A1B006F66BE /* Security.framework */,
+				A927C8F91D744A17006F66BE /* QuartzCore.framework */,
+				A927C8E81D744330006F66BE /* libAppnextLib.a */,
+				A927C8E61D74431B006F66BE /* Screen Shot 2016-08-28 at 10.42.09 PM.png */,
+				5A2917037A857AEE2541CA33 /* Pods_Popping_Bubbles.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9DC279C1D69E4B100012DF2 /* Build configuration list for PBXNativeTarget "Popping Bubbles" */;
 			buildPhases = (
+				A258A3892543314F91E4ACAE /* [CP] Check Pods Manifest.lock */,
 				A9DC27821D69E4B100012DF2 /* Sources */,
 				A9DC27831D69E4B100012DF2 /* Frameworks */,
 				A9DC27841D69E4B100012DF2 /* Resources */,
+				F0B3011E254EB0BACC0FD9B1 /* [CP] Embed Pods Frameworks */,
+				A61481A2A48D08C8F8E45E53 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,23 +315,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A989C3631D6CEA210087F279 /* GoogleService-Info.plist in Resources */,
+				A941CBA11D6E03C4009189FA /* missSound.wav in Resources */,
 				A9DC278C1D69E4B100012DF2 /* GameScene.sks in Resources */,
+				A941CBA31D6E0A72009189FA /* lostSound.wav in Resources */,
+				A941CB9D1D6E013F009189FA /* bubblesPop.wav in Resources */,
 				A9DC27981D69E4B100012DF2 /* LaunchScreen.storyboard in Resources */,
 				A9DC27951D69E4B100012DF2 /* Assets.xcassets in Resources */,
+				A941CB9F1D6E025F009189FA /* gameMusic.aiff in Resources */,
 				A9DC27931D69E4B100012DF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A258A3892543314F91E4ACAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A61481A2A48D08C8F8E45E53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Popping Bubbles/Pods-Popping Bubbles-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0B3011E254EB0BACC0FD9B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Popping Bubbles/Pods-Popping Bubbles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A9DC27821D69E4B100012DF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A943D27B1D72C96E0041F57A /* myMedalsScene.swift in Sources */,
 				A9DC278E1D69E4B100012DF2 /* GameScene.swift in Sources */,
 				A9DC27901D69E4B100012DF2 /* GameViewController.swift in Sources */,
+				A9DC27A71D6A063400012DF2 /* SKNodeUpdate.swift in Sources */,
+				A998D3B21D6C2115006C51B2 /* HomeScene.swift in Sources */,
+				A998D3B41D6C2473006C51B2 /* AboutScene.swift in Sources */,
+				A9DC27A31D69FB6600012DF2 /* ColorLabel.swift in Sources */,
 				A9DC278A1D69E4B100012DF2 /* AppDelegate.swift in Sources */,
+				A9034C591D6C4E3E004BE292 /* GameOverScene.swift in Sources */,
+				A9DC27A01D69E62200012DF2 /* Bubble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,23 +504,71 @@
 		};
 		A9DC279D1D69E4B100012DF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA83B98F4B4F1A1380AA01C2 /* Pods-Popping Bubbles.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Popping",
+					Bubbles,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/Headers",
+					"$(PROJECT_DIR)/AppnextiOSSDK/include",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/Google-Mobile-Ads-SDK\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleInterchangeUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleSymbolUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleUtilities\"",
+				);
 				INFOPLIST_FILE = "Popping Bubbles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/AppnextIOSSDK";
 				PRODUCT_BUNDLE_IDENTIFIER = "meitar.com.Popping-Bubbles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9cd8fffc-00f4-45ef-ba3b-1e3d1dbfab20";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
 		A9DC279E1D69E4B100012DF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95AE67F9F73F8D35A664AE07 /* Pods-Popping Bubbles.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Popping",
+					Bubbles,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/Headers",
+					"$(PROJECT_DIR)/AppnextiOSSDK/include",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/Google-Mobile-Ads-SDK\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleInterchangeUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleSymbolUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleUtilities\"",
+				);
 				INFOPLIST_FILE = "Popping Bubbles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/AppnextIOSSDK";
 				PRODUCT_BUNDLE_IDENTIFIER = "meitar.com.Popping-Bubbles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9cd8fffc-00f4-45ef-ba3b-1e3d1dbfab20";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -296,6 +591,7 @@
 				A9DC279E1D69E4B100012DF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
